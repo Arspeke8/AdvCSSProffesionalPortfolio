@@ -1,3 +1,29 @@
 body {
     background-color: black
 }
+H1 { 
+    font-weight: bold; 
+    font-size: 45pt;
+    line-height: 5pt; 
+    font-family: Helvetica; 
+    font-variant: normal;
+    font-style: normal;
+    color: whitesmoke;
+    
+  }
+
+  H2 { 
+    font-weight: bold; 
+    font-size: 30pt;
+    line-height: 6pt; 
+    font-family: Helvetica; 
+    font-variant: normal;
+    font-style: normal;
+    color: blue;
+  }
+
+  .avatar {
+        height: 300px;
+  }
+
+ 
