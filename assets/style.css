@@ -1,7 +1,13 @@
+    * {
+    box-sizing: content-box;
+    padding: 19px;
+    margin: 0px;
+    }
 body {
     background-color: black
 }
-H1 { 
+
+h1 { 
     font-weight: bold; 
     font-size: 45pt;
     line-height: 5pt; 
@@ -12,7 +18,8 @@ H1 {
     
   }
 
-  H2 { 
+  .B { 
+    display: inline-block;
     font-weight: bold; 
     font-size: 30pt;
     line-height: 6pt; 
@@ -20,28 +27,31 @@ H1 {
     font-variant: normal;
     font-style: normal;
     color: blue;
+    flex-grow: 1;
   }
 
   .avatar {
         height: 300px;
+        display: inline-block;
   }
 
 .header nav {
     font-weight: bold;
     font-size: 30px;
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 0px;
+    margin-right: -20px;
     float: right;
     font-family: Helvetica
     
 }
 
-.header nav ul {
+.header nav ul li {
     list-style-type: none;
 }
 
 .header nav ul li {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     margin-left: 25px;
 }
 
@@ -49,4 +59,32 @@ H1 {
     display: flex;
     flex-direction: row-reverse;
     color:red;
+}
+
+footer {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color:blanchedalmond
+}
+
+.C {
+    display: flex;
+    align-items: flex-end;
+    font-size: large;
+    font-weight: bold;
+}
+
+.N {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto
 }
