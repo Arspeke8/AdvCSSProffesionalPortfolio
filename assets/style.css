@@ -8,7 +8,7 @@ body {
     padding: 30px 16px;
 }
 
-h1 { 
+.D { 
     font-weight: bold; 
     font-size: 45px;
     font-family: Helvetica; 
@@ -61,15 +61,13 @@ h1 {
 }
 
 footer {
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         color:blanchedalmond
 }
 
 .C {
-    font-size: large;
+    font-size: 50px;
     font-weight: bold;
+    color:red
 }
 
 .N {
@@ -81,12 +79,11 @@ footer {
 }
 
 .work {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10px;
-    border-color:green;
-    padding: 10px;
-    flex: 0 0 400px;
+    color:red
+}
+
+.section {
+    display: flex;
 }
 
 .box {
@@ -99,7 +96,15 @@ footer {
 }
 
 .refactor, .Java, .API, .Node {
+    display: flex;
+    justify-content: center;
     color:beige;
     font-family: Helvetica;
 
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
 }
