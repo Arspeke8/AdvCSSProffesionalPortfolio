@@ -79,20 +79,28 @@ footer {
 }
 
 .work {
-    color:red
+    color:red;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
 }
 
 .section {
     display: flex;
+    gap: 17px 50px
 }
 
 .box {
+    display: flex;
     border-style: solid;
-    border-width: 1px;
-    border-radius: 10px;
+    border-width: 10px;
+    border-radius: 50px;
     border-color: green;
-    padding: 10px;
-    flex: 0 0 400px;
+    padding: 65px;
+    width: 50%;
+    height: 50%;
+    flex-wrap: wrap;
 }
 
 .refactor, .Java, .API, .Node {
