@@ -78,7 +78,7 @@ footer {
     font-weight: bold;
 }
 
-.work {
+.work, .Color {
     color:red;
     padding: 0px;
     display: flex;
@@ -115,4 +115,21 @@ footer {
     display: flex;
     justify-content: center;
     align-items: space-between;
+    font-size: 30px;
+}
+
+.About {
+    display:flex;
+    gap: 17px 50px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 0px;
+    font-family: Helvetica;
+    margin-bottom: ;
+   }
+
+.p {
+    color:green;
+    display:flex;
+    align-items: flex-end;
 }
