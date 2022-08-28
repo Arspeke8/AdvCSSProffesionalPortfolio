@@ -100,7 +100,17 @@ footer {
     padding: 65px;
     width: 50%;
     height: 50%;
-    flex-wrap: wrap;
+}
+
+.boxs {
+    display: flex;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 50px;
+    border-color: green;
+    padding: 65px;
+    width: 50%;
+    height: 50%;
 }
 
 .refactor, .Java, .API, .Node {
@@ -133,3 +143,9 @@ footer {
     display:flex;
     align-items: flex-end;
 }
+
+@media screen and (min-width: 768px) {
+    .section, .work, .box {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
